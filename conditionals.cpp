@@ -17,10 +17,10 @@ int main()
     // Write your code here
     if(n >= 10){
         cout << "Greater than 9";
-    };
-    string z = numbers[--n];
+    } else if(n <= 9){
+    string z = numbers[n - 1];
     cout << z;
-
+    }
     return 0;
 }
 
