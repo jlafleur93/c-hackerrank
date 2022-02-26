@@ -13,9 +13,9 @@ int main()
     getline(cin, n_temp);
 
     int n = stoi(ltrim(rtrim(n_temp)));
-    string numbers[8] = {"one", "two", "three", "four", "five", "six", "seven", "eight"};
+    string numbers[9] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     // Write your code here
-    if(n >= 9){
+    if(n >= 10){
         cout << "Greater than 9";
     };
     string z = numbers[--n];
