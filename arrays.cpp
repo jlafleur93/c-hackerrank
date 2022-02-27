@@ -7,8 +7,17 @@ using namespace std;
 
 int main()
 {
-  int a;
-  cout << "enter numb";
-  cin >> a;
-  return 0;
+ int x; 
+ cin >> x;
+ int array[x];
+ for(int i = 0; i < x; i++){
+   cin >> array[i];
+ }
+  
+  for(int i = x-1; i >= 0; i--){
+        cout << array[i] << " ";
+    }
+    return 0;
+
+ return 0;
 }

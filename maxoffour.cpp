@@ -7,7 +7,7 @@ Add `int max_of_four(int a, int b, int c, int d)` here.
 */
 int max_of_four(int a, int b, int c, int d){
     int element[4] = {a, b, c, d};
-    int arrRet[1] = {0} ;
+    int arrRet[1] = {0};
     for(int i = 0; i < 4; i++){
         int ret[1] = { 0 };
         if(ret[1] < element[i]){
