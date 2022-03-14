@@ -13,7 +13,22 @@ using namespace std;
 
 
 int main() {
-    vector <int> ret;
-      
+    int z, x;   
+    cin >> z >> x;
+    vector<int> a[z];
+    for(int i = 0; i < z; i++){
+        int n;
+        cin >> n;
+        int o;
+        for(int j = 0; j < n; j++){
+            cin >> o;
+            a[i].push_back(o);
+        }
+    }
+    int r, s;
+    for(int z = 1; z <= x; z++){
+        cin >> r >> s;
+        cout << a[r][s] << endl;
+    }
     return 0;
 }
